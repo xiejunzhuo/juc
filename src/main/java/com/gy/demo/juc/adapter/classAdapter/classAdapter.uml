@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement />
+  <nodes>
+    <node x="25.75" y="115.0">com.gy.demo.juc.adapter.classAdapter.VoltagAddapter</node>
+    <node x="158.25" y="230.0">com.gy.demo.juc.adapter.classAdapter.Client</node>
+    <node x="0.0" y="0.0">com.gy.demo.juc.adapter.classAdapter.Voltag220V</node>
+    <node x="190.75" y="103.0">com.gy.demo.juc.adapter.classAdapter.Phone</node>
+    <node x="192.0" y="0.0">com.gy.demo.juc.adapter.classAdapter.IVolatag5V</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="com.gy.demo.juc.adapter.classAdapter.Client" target="com.gy.demo.juc.adapter.classAdapter.VoltagAddapter">
+      <point x="-58.33333333333334" y="-26.5" />
+      <point x="187.41666666666666" y="205.0" />
+      <point x="98.25" y="205.0" />
+      <point x="0.0" y="26.5" />
+    </edge>
+    <edge source="com.gy.demo.juc.adapter.classAdapter.VoltagAddapter" target="com.gy.demo.juc.adapter.classAdapter.Voltag220V">
+      <point x="-48.33333333333337" y="-26.5" />
+      <point x="49.91666666666663" y="78.0" />
+      <point x="32.75" y="78.0" />
+      <point x="-32.75" y="26.5" />
+    </edge>
+    <edge source="com.gy.demo.juc.adapter.classAdapter.Phone" target="com.gy.demo.juc.adapter.classAdapter.IVolatag5V">
+      <point x="0.0" y="-38.5" />
+      <point x="36.25" y="26.5" />
+    </edge>
+    <edge source="com.gy.demo.juc.adapter.classAdapter.Client" target="com.gy.demo.juc.adapter.classAdapter.Phone">
+      <point x="58.33333333333334" y="-26.5" />
+      <point x="304.08333333333337" y="205.0" />
+      <point x="355.75" y="205.0" />
+      <point x="55.0" y="38.5" />
+    </edge>
+    <edge source="com.gy.demo.juc.adapter.classAdapter.VoltagAddapter" target="com.gy.demo.juc.adapter.classAdapter.IVolatag5V">
+      <point x="48.333333333333314" y="-26.5" />
+      <point x="146.58333333333331" y="78.0" />
+      <point x="228.25" y="78.0" />
+      <point x="-36.25" y="26.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="0.0" y="0.0" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Methods</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

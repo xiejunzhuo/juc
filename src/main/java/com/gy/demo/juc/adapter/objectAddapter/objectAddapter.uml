@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement />
+  <nodes>
+    <node x="0.0" y="80.0">com.gy.demo.juc.adapter.objectAddapter.VoltageAddapter</node>
+    <node x="167.0" y="155.0">com.gy.demo.juc.adapter.objectAddapter.Phone</node>
+    <node x="0.0" y="155.0">com.gy.demo.juc.adapter.objectAddapter.Voltage220V</node>
+    <node x="18.0" y="0.0">com.gy.demo.juc.adapter.objectAddapter.IVoltage5V</node>
+    <node x="0.0" y="230.0">com.gy.demo.juc.adapter.objectAddapter.Client</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="com.gy.demo.juc.adapter.objectAddapter.VoltageAddapter" target="com.gy.demo.juc.adapter.objectAddapter.IVoltage5V">
+      <point x="0.0" y="-15.0" />
+      <point x="0.0" y="15.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="0.0" y="96.0" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Inner Classes</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
