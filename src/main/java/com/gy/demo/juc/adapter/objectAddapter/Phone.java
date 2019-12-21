@@ -7,7 +7,7 @@ package com.gy.demo.juc.adapter.objectAddapter;
  */
 public class Phone {
     public void charging(IVoltage5V iVoltage5V){
-        if (iVoltage5V.outpt5V() ==5){
+        if (iVoltage5V.output5V() ==5){
             System.out.println("电压等于v，可以充电");
         }else {
             System.out.println("电压不等于v，不能充电");

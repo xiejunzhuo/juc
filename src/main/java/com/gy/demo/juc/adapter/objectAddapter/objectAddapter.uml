@@ -3,16 +3,48 @@
   <ID>JAVA</ID>
   <OriginalElement />
   <nodes>
-    <node x="0.0" y="80.0">com.gy.demo.juc.adapter.objectAddapter.VoltageAddapter</node>
-    <node x="167.0" y="155.0">com.gy.demo.juc.adapter.objectAddapter.Phone</node>
-    <node x="0.0" y="155.0">com.gy.demo.juc.adapter.objectAddapter.Voltage220V</node>
-    <node x="18.0" y="0.0">com.gy.demo.juc.adapter.objectAddapter.IVoltage5V</node>
-    <node x="0.0" y="230.0">com.gy.demo.juc.adapter.objectAddapter.Client</node>
+    <node x="29.25" y="80.0">com.gy.demo.juc.adapter.objectAddapter.VoltageAddapter</node>
+    <node x="197.25" y="80.0">com.gy.demo.juc.adapter.objectAddapter.Phone</node>
+    <node x="0.0" y="0.0">com.gy.demo.juc.adapter.objectAddapter.Voltage220V</node>
+    <node x="155.25" y="0.0">com.gy.demo.juc.adapter.objectAddapter.IVoltage5V</node>
+    <node x="120.75" y="160.0">com.gy.demo.juc.adapter.objectAddapter.Client</node>
   </nodes>
   <notes />
   <edges>
-    <edge source="com.gy.demo.juc.adapter.objectAddapter.VoltageAddapter" target="com.gy.demo.juc.adapter.objectAddapter.IVoltage5V">
+    <edge source="com.gy.demo.juc.adapter.objectAddapter.Phone" target="com.gy.demo.juc.adapter.objectAddapter.IVoltage5V">
       <point x="0.0" y="-15.0" />
+      <point x="28.0" y="15.0" />
+    </edge>
+    <edge source="com.gy.demo.juc.adapter.objectAddapter.Client" target="com.gy.demo.juc.adapter.objectAddapter.Phone">
+      <point x="10.0" y="-15.0" />
+      <point x="170.75" y="130.0" />
+      <point x="218.25" y="130.0" />
+      <point x="-21.0" y="15.0" />
+    </edge>
+    <edge source="com.gy.demo.juc.adapter.objectAddapter.VoltageAddapter" target="com.gy.demo.juc.adapter.objectAddapter.Voltage220V">
+      <point x="0.0" y="-15.0" />
+      <point x="103.25" y="55.0" />
+      <point x="101.66666666666663" y="55.0" />
+      <point x="40.66666666666663" y="15.0" />
+    </edge>
+    <edge source="com.gy.demo.juc.adapter.objectAddapter.Client" target="com.gy.demo.juc.adapter.objectAddapter.Voltage220V">
+      <point x="-30.0" y="-15.0" />
+      <point x="130.75" y="140.0" />
+      <point x="18.75" y="140.0" />
+      <point x="18.75" y="55.0" />
+      <point x="20.333333333333343" y="55.0" />
+      <point x="-40.66666666666666" y="15.0" />
+    </edge>
+    <edge source="com.gy.demo.juc.adapter.objectAddapter.VoltageAddapter" target="com.gy.demo.juc.adapter.objectAddapter.IVoltage5V">
+      <point x="49.33333333333334" y="-15.0" />
+      <point x="152.58333333333334" y="55.0" />
+      <point x="183.25" y="55.0" />
+      <point x="-28.0" y="15.0" />
+    </edge>
+    <edge source="com.gy.demo.juc.adapter.objectAddapter.Client" target="com.gy.demo.juc.adapter.objectAddapter.VoltageAddapter">
+      <point x="-10.0" y="-15.0" />
+      <point x="150.75" y="130.0" />
+      <point x="103.25" y="130.0" />
       <point x="0.0" y="15.0" />
     </edge>
   </edges>

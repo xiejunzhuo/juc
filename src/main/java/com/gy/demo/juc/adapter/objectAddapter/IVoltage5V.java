@@ -7,5 +7,5 @@ package com.gy.demo.juc.adapter.objectAddapter;
  * @date 2019/12/21 16:01
  */
 public interface IVoltage5V {
-    public int outpt5V();
+    public int output5V();
 }
