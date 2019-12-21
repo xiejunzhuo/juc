@@ -1,6 +1,5 @@
 package com.gy.demo.juc.adapter.interfaceadapter;
 
-import com.sun.org.apache.xerces.internal.jaxp.validation.ErrorHandlerAdaptor;
 
 /**
  * @author 谢君卓
